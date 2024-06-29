@@ -1,0 +1,10 @@
+OBJECT POOL 
+
+desing pattern solves performance issues caused by memory allocation and garbage collection processes, when we are quickly creating and discarding many objects.
+
+this is a code design approach which readuces creation and deletion of object so that javascript don't have to do garbage collections and thus js engine focuses on application rather than getting involved in garbage collection thus increasing the performance
+
+
+GARBAGE COLLECTION 
+
+this is the process which happens automatically and it periodically looks for objects, that are no longer referenced in the code, and it deletes them from memeory . 
